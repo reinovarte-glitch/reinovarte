@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.titulos{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 50px;
+}
+
 .button{
     border: none;
     color: white;
@@ -69,18 +75,17 @@
     justify-content: center;
 }
 
-.mainpage{
-    width: 100%;
-}
-
-.titulos{
-    text-align: center;
-    font-size: 100px;
-}
-
 /* Carrossel*/
+
+.carouselContainer{
+    overflow: hidden;
+    width: 100px;
+}
+
 .mySlides{
     display: none;
+    width: 100%;
+    height: 100%;
 }
 
 .fade{
@@ -88,14 +93,30 @@
     animation-duration: 1s;
 }
 
+.cursosbutton{
+    margin-top: 30px;
+    background-color: #000071;
+    color: #ffa220;
+    border-radius: 55px;
+    width: 450px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.cursosbutton:hover{
+    background-color: #ffa220;
+    color: #000071;
+}
+
 /* Sobre */
 .sobre{
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 20px;
     gap: 200px;
     justify-content: center;
-
+    overflow: hidden;
 }
 
 .sobre texto{
@@ -108,9 +129,9 @@
 }
 
 .sobrebutton{
-    margin-top: 60px;
+    margin-top: 30px;
     background-color: #000071;
-    color: white;
+    color: #ffa220;
     border-radius: 55px;
     width: 450px;
     height: 100px;
@@ -119,9 +140,16 @@
 
 .sobrebutton:hover{
     background-color: #ffa220;
-    color: white;
+    color: #000071;
 }
 
+.container{
+    height: 20px;
+}
+
+.container img{
+    margin-top: -50px;
+}
 
 @media screen and (max-width: 650px){
     .header{
