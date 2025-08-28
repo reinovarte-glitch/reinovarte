@@ -55,13 +55,15 @@
     font-size: 20px;
     background-color: #eee2d2;
     z-index: 0;
+    display: flex;
+    justify-content: center;
 }
 
 /* Carrossel*/
 .carouselContainer{
     position: absolute;
-    align-content: center;
     width: 100%;
+    
 }
 
 .mySlides{
