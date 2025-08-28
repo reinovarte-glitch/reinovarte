@@ -16,15 +16,14 @@
             <div class = "content">
                 <a href="./index.html">Inicio</a>
                 <a href="">Sobre</a>
+                <a href="">Cursos</a>
                 <a href="">Ingressos</a>
-                <a href="">Depoimentos</a>
-                <a href="">Apresentações</a>
                 <a href="">Portfólio</a>
             </div>
         </div>
         <div class = "page">
             <div class ="mainpage">
-                <div class="carouselContainer">
+                <div id="carouselContainer">
                     <div class="mySlides fade">
                         <img src="./assets/Aurora2.jpg">
                     </div>
@@ -34,12 +33,50 @@
                     <div class="mySlides fade">
                         <img src="./assets/Mágico.JPG">
                     </div>
-                    <div class="btncursos">
-                        <a href="./cursos.html">Conheça os nossos cursos</h1>
+                    <div class="btn">
+                        <a href="#cursos">Conheça os nossos cursos</a>
                     </div>
                 </div>
-                <div class = "">
+                <h1 class ="titulos">Sobre Nós</h1>
+                <div class = "sobre">
+                    <texto>
+                        <h1>Resistência. Inovação. Arte. </h1>
+                        <p>Estes foram os pilares principais para o início de um projeto primoroso, que tem por objetivo transformar a vida das pessoas, não só com a atuação, mas com a compreensão da arte de atuar como uma ferramenta de evolução social, ética e filosófica de todo o mundo.</p>
+                        <p>Com professores bem preparados e atuantes em suas áreas de ensino, o Teatro-Escola (Re)InovArte tem conseguido desenvolver o trabalho ao qual se propôs com maestria, competência e honestidade. Nosso intuito é formar mais do que atores e atrizes: Queremos formar artistas completos, pensantes e pertinentes, que sabem que a arte de atuar vai muito além de pavonear-se atrás de fama e seguidores. </p>
+                        <p>A atuação é o pilar da comunicação e sem comunicação não há sociedade. Resistir às dificuldades. Inovar a todo instante. Arte para entender o mundo.</p>
+                        <br><br>Resistir.
+                        <br>Inovar.
+                        <br>Arte fazer.
+                        <br>Isto é <strong>(Re)InovArte</strong>.</p>
+                        <button class="button sobrebutton">
+                            Saiba mais sobre nós
+                        </button>
+                    </texto>
+                    <img src="./assets/lobo.JPG">
+                </div>
+                <div class = "cursos">
+                    <h1>Nossos Cursos</h1>
+                    <p>curso1</p>
+                    <p>curso2</p>
+                    <p>curso3</p>
+                    <p>curso4</p>
+                    <p>curso5</p>
+                </div>
+                <div class = "depoimentos">
+                    <h1>Depoimentos de Alunos</h1>
+                </div>
+                <div class = "agenda">
+                    <h1>Próximos eventos</h1>
+                </div>
+                <div class = "contato">
+                    <h1>Contato</h1>
+                </div>
             </div>
+            </div>
+        </div>
+        <div class ="footer">
+            <div class = "info">
+                <t>(Re)InovArte<t>
             </div>
         </div>
     </main>
@@ -60,7 +97,7 @@
         slideIndex++;
         if (slideIndex > slides.length) {slideIndex = 1}
         slides[slideIndex-1].style.display = "block";
-        setTimeout(showSlides, 10000); //muda a foto de 10 em 10s
+        setTimeout(showSlides, 5000); //muda a foto de 10 em 10s
         }
     </script>
 </body>
