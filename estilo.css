@@ -61,6 +61,7 @@
 .carouselContainer{
     position: absolute;
     align-content: center;
+    width: 100%;
 }
 
 .mySlides{
